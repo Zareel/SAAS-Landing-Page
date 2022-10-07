@@ -4,134 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
     <title>SAAS Landing Page</title>
 </head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
 <body>
-   <div class="container">
     <header>
-        <nav>
-            <div class="logo">  
-                <img src="./images/logo.png" alt="logo" class="white-logo">
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo" class="logo">
             </div>
-            <div class="nav-items">
-                <ul class="list">
-                    <li class="nav-item"> <a class="nav-link nav-active" href="#">Home</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Services</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Pricing</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Testimonials</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Blog</a></li>
-                </ul>
-            </div>  
-            <div class="nav-button">
-                <button class="btn">FREE TRIAL</button>  
-            </div>
-            <div class="fa-menu">
-                <i class="fa fa-bars"></i>
+            <div class="nav-right">
+                <div>
+                    <ul class="nav-items">
+                        <li class="nav-item nav-item-active">Home</li>
+                        <li class="nav-item">Services</li>
+                        <li class="nav-item">Pricing</li>
+                        <li class="nav-item">Testimonials</li>
+                        <li class="nav-item">Blog</li>
+                        <li><button class="nav-item nav-btn">FREE TRIAL</button></li>
+                        <li><i class="fa fa-bars" style="color: #fff;" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
             </div>
         </nav>
-<!-- ---------------------------------------end of Nav-bar--------------------------------------------- -->
-        <section class="header-section">
-            <div class="sas-heading">
-                <h1>Codext one of <br> the best system <br>in SAAS</h1>
-                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Tenetur maiores,<br> eos commodi  illum deleniti reiciendis totam vero assumenda <br> esse neque eligendi illo eveniet sapiente ipsa</P>
-                <button class="header-btn">Try a live demo</button>
+          <!-- -------------------------------------------------end of nav-bar ------------------------------------------->
+          <div class="header">
+            <div class="header-left">
+                <h1>Codext one of <br>the best system <br>in SAAS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur deserunt <br> earum ullam, officia accusamus repudiandae <br> temporibus vitae  fugiat voluptatem ab!</p>
+                <button class="btn">Try a Live Demo</button>
             </div>
-            <div class="header-image">
-                <img src="./images/header-image.svg" width="500px" alt="header-image">
+            <div class="header-right">
+                <img src="./images/header-image.svg" alt="img">
             </div>
-        </section>
+          </div>
     </header>
-<!-- ----------------------------------------end of Header section--------------------------------------- -->
-   <main>
-    <section class="main-section1">
-        <div class="section1-right">
-            <div class="section1-img">
-                <img src="./images/Saas illustration-01.svg" alt="section1-img">
+  
+   <!-- --------------------------------------------------------end of header section----------------------------------- -->
+  <section class="hero">
+    <div class="hero-left">
+        <img src="./images/Saas illustration-01.svg" alt="img">
+    </div>
+    <div class="hero-right">
+        <h1>It's helpful for operating <br>systerm</h1>
+        <div class="hero-lists">
+            <div class="arrow">
+                <i class='fas fa-share' style='font-size:20px;color:#ff5900'></i>
+            </div>
+            <div>
+                <h3>Ultra fast & Secure</h3>
+                <p>Lorem ipsum dolor sit amet consectetur <br>earum ullam, officia accusamus  amet </p>
             </div>
         </div>
-        <div class="section1-right">
-                <h2>It's helpful for operating <br>system</h2>
-            <div class="section1-right-content">
-                <div class="right-content1">
-                    <div class="right-arrow1">
-                        <i class="fa fa-arrow-right"></i>
-                    </div>
-                    <div class="right-text">
-                        <h3>Altra fast & secure</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Est eiusmod tempor!</p>
-                    </div>
-                </div>   
-                <div class="right-content2">
-                    <div class="right-arrow2">
-                        <i class="fa fa-arrow-right"></i>
-                    </div>
-                    <div class="right-text">
-                        <h3>Allow cutomization</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Est eiusmod tempor!</p>
-                    </div>
-                </div>
-                <div class="right-content3">
-                    <div class="right-arrow3">
-                        <i class="fa fa-arrow-right"></i>
-                    </div>
-                    <div class="right-text">
-                        <h3>Smart contract</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Est eiusmod tempor!</p>
-                    </div>
-                </div>
+        <div class="hero-lists">
+            <div class="arrow">
+                <i class='fas fa-share' style='font-size:20px;color:#76ef25'></i>
             </div>
-        </div>   
-    </section>
-   </main>
-<!-- ----------------------------------------------End of Section 1------------------------------- -->
-                    <!-- cards -->
-   <main>
-    <section class="main-section2">
-        <h1>We Provide Best Feature <br> for Customer</h1>
-        <div class="cards">
-            <div class="card card-active">
-                <div class="card1-img">
-                    <img src="./images/web-developing.svg" alt="icon">
-                </div>
-                <div class="card-text">
-                    <h3>Clean Code</h3>
-                    <p>Lorem ipsum dolor sit <br> amet consectetur <br>adipisicing elit</p>
-                </div>
-            </div>
-            <div class="card card2">
-                <div class="card2-img">
-                    <img src="./images/data-analytics.svg" alt="icon">
-                </div>
-                <div class="card-text">
-                    <h3>Data Analytics</h3>
-                    <p>Lorem ipsum dolor sit <br> amet consectetur <br>adipisicing elit</p>
-                </div>
-            </div>
-            <div class="card cadr3">
-                <div class="card3-img">
-                    <img src="./images/secured-profile.svg" alt="icon">
-                </div>
-                <div class="card-text">
-                    <h3>Fully Secured</h3>
-                    <p>Lorem ipsum dolor sit <br> amet consectetur <br>adipisicing elit</p>
-                </div>
-            </div>
-            <div class="card card4">
-                <div class="card4-img">
-                    <img src="./images/support.svg" alt="icon">
-                </div>
-                <div class="card-text">
-                    <h3>24/7 Support</h3>
-                    <p>Lorem ipsum dolor sit <br> amet consectetur <br>adipisicing elit</p>
-                </div>
+            <div>
+                <h3>Allow Customization</h3>
+                <p>Lorem ipsum dolor sit amet consectetur <br>earum ullam, officia accusamus  amet </p>
             </div>
         </div>
-    </section>
-   </main>
-   <!-- --------------------------------------End Of Card Section-------------------------- -->
-</div>
+        <div class="hero-lists">
+            <div class="arrow">
+                <i class='fas fa-share' style='font-size:20px;color:#2842a1'></i>
+            </div>
+            <div>
+                <h3>Smart Contract</h3>
+                <p>Lorem ipsum dolor sit amet consectetur <br>earum ullam, officia accusamus  amet </p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- -----------------------------------------------end of hero section------------------------------------ -->
+  <section class="cards">
+    <h1>We Provide Best Features <br>for Customer </h1>
+    <div class="small-cards">
+        <div class="card">
+            <div class="icon1">
+                <img src="./images/card1.svg" width="40px" alt="icon">
+            </div>
+            <div class="text text-active">
+                <h3>Clean Code</h3>
+                <p>Lorem ipsum dolor sit <br> amet consectetur <br>earum ullam</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon2">
+                <img src="./images/card2.svg" width="40px" alt="icon">
+            </div>
+            <div class="text">
+                <h3>Data Analytics</h3>
+                <p>Lorem ipsum dolor sit <br> amet consectetur <br>earum ullam</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon3">
+                <img src="./images/card3.svg" width="40px" alt="icon">
+            </div>
+            <div class="text">
+                <h3>Fully Secured</h3>
+                <p>Lorem ipsum dolor sit <br> amet consectetur <br>earum ullam</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon4">
+                <img src="./images/card4.svg" width="40px" alt="icon">
+            </div>
+            <div class="text">
+                <h3>24/7 Support</h3>
+                <p>Lorem ipsum dolor sit <br> amet consectetur <br>earum ullam</p>
+            </div>
+        </div>
+    </div>
+  </section>
 </body>
 </html>
